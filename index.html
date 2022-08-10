@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fund Me</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="./index.js" type="module"></script>
+    <h1>Fund Me DApp</h1>
+    <button id="connectButton">Connect Wallet</button>
+    <br />
+    <!-- forms -->
+    <label for="fund">Eth amount</label>
+    <input id="ethAmount" placeholder="0.1" />
+    <br />
+    <div class="my-balance">
+      <span>Balance: </span>
+      <span id="walletBalance">0.00 </span>
+      <span>Eth</span>
+    </div>
+
+    <div class="container">
+      <button class="contract-buttons" id="fund">Fund</button>
+      <button class="contract-buttons" id="withdrawButton">Withdraw</button>
+      <button class="contract-buttons" id="getBalance">get balance</button>
+    </div>
+  </body>
+</html>
